@@ -21,7 +21,7 @@ int main()
     for(int i=0;i<edges;i++)
     {
         int u,v;
-
+        //Scanning the input
         scanf("%d %d",&u,&v);
         if(strcmp(type,"dire")==0 || strcmp(type,"Dire")==0)
         {

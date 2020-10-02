@@ -32,7 +32,8 @@ int main()
         {
             printf("Undirected Graph....\n");
             mat[u][v]+=1;
-            mat[v][u]+=1;
+            //mat[v][u]+=1;
+            mat[v][u] = mat[v][u] + 1;
         }
     }
     ///Adjacency Matrix
